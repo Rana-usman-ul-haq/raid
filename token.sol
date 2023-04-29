@@ -972,7 +972,7 @@ contract RaidNinjaWarriors is ERC20, Ownable {
         IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(
             0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D     // Ethereum
             //0x10ED43C718714eb63d5aA57B78B54704E256024E  // Binance smart chain
-            //0xD99D1c33F9fC3444f8101754aBC46c52416550D1  //testnet
+            //0xbdd4e5660839a088573191A9889A262c0Efc0983  //testnet
         );
         // CREATE A UNISWAP PAIR FOR THIS NEW TOKEN
         uniswapV2Pair = IUniswapV2Factory(_uniswapV2Router.factory())
